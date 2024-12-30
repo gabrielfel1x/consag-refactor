@@ -6,6 +6,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.items-nav-header {
+  margin-left: 17%;
+}
 
 .row .col-xs-12 img {
   max-width: 100%;
@@ -69,9 +72,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
-  margin-left: 25%;
+  margin-left: 12%;
   margin-right: 0;
 }
 
