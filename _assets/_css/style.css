@@ -6,6 +6,21 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.text-middle h2 {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  min-width: 530px !important;
+  line-height: 40px !important;
+  margin-bottom: 120px !important;
+}
+
+.detail-03-img {
+  margin-top: 90px !important;
+  width: 70% !important;
+  margin-left: 30% !important;
+}
+
+
 .middle-banner-selo-video {
   width: 40px;
   height: 40px;
@@ -87,11 +102,6 @@
 
 .div-banner-engenheiros {
   margin-left: 60px !important;
-}
-
-.detail-03-img {
-  margin-top: 90px !important;
-  width: 100% !important;
 }
 
 .box-retangle-text h1 {
@@ -183,16 +193,6 @@
 
 .middle-content {
   margin-top: 100px !important;
-}
-
-.text-middle h2 {
-  font-weight: 600 !important;
-  font-size: 32px !important;
-  letter-spacing: 1px !important;
-  min-width: 660px !important;
-  max-width: 1400px !important;
-  line-height: 54px !important;
-  margin-bottom: 120px !important;
 }
 
 .team {

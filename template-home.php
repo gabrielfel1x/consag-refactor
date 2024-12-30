@@ -119,7 +119,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais &nbsp;→</div>
+                                        <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais &nbsp;→</div>
+                                        <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais &nbsp;→</div>
+                                        <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais &nbsp;→</div>
+                                        <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais   →</div>
+                                    <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -240,7 +240,7 @@ get_header(); // Inclui o cabeçalho do tema
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-xs-12-substituicao col-lg-3 col-lg-offset-1">
-                                        <div class="button saibamais-button">saiba mais   →</div>
+                                    <div class="button saibamais-button">saiba mais &nbsp;<div class="arrow">→</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +251,7 @@ get_header(); // Inclui o cabeçalho do tema
                 <div class="spacer-2"></div>
                 <div class="row middle-xs middle-content">
                     <div class="col-xs-12 col-xs-12-substituicao col-lg-4 men-image">
-                        <div class="ilustracao shadow-270 detail-cross" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-01.png); min-height: 530px; min-width: 430px;"></div>
+                        <div class="ilustracao shadow-270 detail-cross" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-01.png); height: 490px; width: 360px;"></div>
                     </div>
                     <div class="col-xs-12 col-xs-12-substituicao col-lg-5 col-lg-offset-1 start-lg center-xs text-middle">
                         <h4>a consag engenharia</h4>
@@ -300,7 +300,8 @@ get_header(); // Inclui o cabeçalho do tema
                         </div>
                     </div>
                     <div class=" col-lg-6 col-lg-offset-1 div-banner-engenheiros">
-                        <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/_engenharia/mod3-sobre-2.jpg); min-height: 400px; min-width: 680px;"></div>
+                        <!-- <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/_engenharia/mod3-sobre-2.jpg); min-height: 400px; min-width: 680px;"></div> -->
+                        <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-02.png); min-height: 400px; min-width: 680px;"></div>
                     </div>
                 </div>
             </div>
