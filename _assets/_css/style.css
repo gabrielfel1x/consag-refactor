@@ -6,6 +6,39 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.team-text span {
+  font-weight: 500 !important;
+  font-size: 11px !important;
+}
+
+
+.project-number {
+  font-size: 44px !important;
+  color: #293445 !important;
+}
+
+#bloco-02-areas .button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #3074f6;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: rotate(-45deg);
+}
+
+.button-saiba-mais {
+  width: 140px !important;
+  padding: 13px 32px !important;
+  border-radius: 2px !important;
+  margin-top: -60px !important;
+}
+
 .text-middle h2 {
   font-weight: 600 !important;
   font-size: 24px !important;
@@ -184,12 +217,6 @@
   margin-left: -120px !important;
 }
 
-.button-saiba-mais {
-  width: 120px !important;
-  padding: 15px 32px !important;
-  border-radius: 2px !important;
-  margin-top: -60px !important;
-}
 
 .middle-content {
   margin-top: 100px !important;
@@ -213,15 +240,6 @@
   margin-bottom: -24px !important;
 }
 
-.team-text span {
-  font-weight: 500 !important;
-  font-size: 13px !important;
-}
-
-.project-number {
-  font-size: 50px !important;
-  color: #293445 !important;
-}
 
 .project-description {
   width: 200px !important;
@@ -4852,20 +4870,6 @@ body {
   }
 }
 
-#bloco-02-areas .button-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 25px;
-  height: 25px;
-  background-color: #3074f6;
-  color: #fff;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  transform: rotate(-45deg);
-}
 
 #bloco-02-areas .arrow {
   display: inline-block;
