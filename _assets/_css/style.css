@@ -5,7 +5,84 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
- 
+
+
+.row .col-xs-12 img {
+  max-width: 100%;
+}
+
+.loupe-div {
+  height: 100%;
+}
+
+.has-submenu {
+  margin-top: -36px;
+}
+
+.brand-logo {
+  min-width: 380px !important;
+  margin-left: -180px !important;
+}
+
+.brand-logo img {
+  max-height: none !important;
+}
+
+.lang-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px;
+  padding: 0 50px !important;
+}
+
+.lang-header .lang-brazil {
+  width: 20px;
+  border-radius: 4px;
+}
+
+.lang-header .down-arrow-lang {
+  margin-top: 0 auto;
+  filter: invert(1) brightness(1000%);
+}
+
+.loupe-icon {
+  margin-top: 0 auto;
+  filter: invert(1) brightness(1000%);
+  width: 18px;
+}
+
+.li-languages {
+  background-color: #3176f5;
+  height: 92px;
+  margin-top: -36px;
+}
+
+#menu-oficial {
+  min-height: 100%;
+  margin-right: 80px;
+  list-style: none;
+  gap: 20px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 0;
+}
+
+#menu-oficial li span {
+  font-size: 10px;
+}
+
+.menu-fixed nav .nav-wrapper {
+  line-height: 80px;
+}
+
 .arrow-notices {
   display: inline-block;
   margin-top: -4px;
@@ -393,9 +470,6 @@
     font-weight: 400;
 }
 
-.row .col-xs-12 img {
-  max-width: 150%;
-}
 
 .title-projects {
   margin-left: 0 !important;
@@ -612,21 +686,8 @@
   background-color: #06172b;
 }
 
-#menu-oficial {
-  min-height: 100%;
-  margin-right: 80px;
-  list-style: none;
-}
 
-.container-header {
-  display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-left: 23%;
-    margin-right: 0;
-}
+
 
 .fale-conosco {
   margin-right: 50px;
@@ -653,43 +714,8 @@
   min-height: 100% !important;
 }
 
-.brand-logo {
-  min-width: 380px !important;
-  margin-left: -180px !important;
-}
 
-.brand-logo img {
-  max-height: none !important;
-}
 
-.lang-header {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 8px;
-  padding: 0 50px !important;
-}
-
-.lang-header .lang-brazil {
-  width: 20px;
-  border-radius: 4px;
-}
-
-.lang-header .down-arrow-lang {
-  margin-top: 0 auto;
-  filter: invert(1) brightness(1000%);
-}
-
-.loupe-icon {
-  margin-top: 0 auto;
-  filter: invert(1) brightness(1000%);
-  width: 20px;
-}
-
-.loupe-div {
-  height: 100%;
-  margin-right: 30px;
-}
 
 @media (max-width: 1920px) {
   #menu-oficial {
@@ -4534,10 +4560,6 @@ body {
   transition: 0.3s;
 }
 
-.menu-fixed nav .nav-wrapper {
-  line-height: 80px;
-  height: 80px;
-}
 
 .menu-fixed nav .nav-wrapper li {
   list-style: none;
