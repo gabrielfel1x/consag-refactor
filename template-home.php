@@ -469,7 +469,7 @@ get_header(); // Inclui o cabeçalho do tema
                 </div>
     
                 <div class="row">
-                    <div class="col-xs-12 col-xs-12-substituicao">
+                    <div class="col-xs-12 col-xs-12-substituicao-v3">
                         <div id="slider-projetos">
     
                             <div class="slide">

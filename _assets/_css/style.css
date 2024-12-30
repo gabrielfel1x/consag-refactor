@@ -6,6 +6,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#bloco-04-projetos #slider-projetos .slide .slide-content {
+  min-height: 550px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 1px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #1d2d50;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ebf2ff;
+}
+
 #bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .button-link {
   display: inline-flex;
   align-items: center;
@@ -45,7 +61,8 @@
 
 
 #bloco-04-projetos #slider-projetos .slide .slide-content .info-container {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   display: inline-block;
   background: linear-gradient(to right, #293445, #0d1d30);
   box-sizing: border-box;
@@ -5158,21 +5175,7 @@ body {
   padding-top: 180px;
 }
 
-#bloco-04-projetos #slider-projetos .slide .slide-content {
-  min-height: 550px;
-  background-position: center center;
-  background-size: cover;
-  border-radius: 1px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  color: #1d2d50;
-  text-transform: uppercase;
-  width: 90%;
-  box-sizing: border-box;
-  border: 1px solid #ebf2ff;
-}
+
 
 #bloco-04-projetos #slider-projetos .slide .slide-content .row {
   margin: 0;
