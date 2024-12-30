@@ -6,11 +6,21 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.selo-video-middle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
 .team-text span {
   font-weight: 500 !important;
   font-size: 11px !important;
 }
 
+.project-description p {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
 
 .project-number {
   font-size: 44px !important;
@@ -30,6 +40,7 @@
   font-size: 1rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
   transform: rotate(-45deg);
+  margin-left: -10px;
 }
 
 .button-saiba-mais {
@@ -246,10 +257,6 @@
   margin-top: 20px !important;
 }
 
-.project-description p {
-  font-size: 14px !important;
-  font-weight: 500 !important;
-}
 
 .saibamais-button {
   padding: 5px !important;

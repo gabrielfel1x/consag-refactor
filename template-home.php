@@ -260,6 +260,7 @@ get_header(); // Inclui o cabeçalho do tema
                     </div>
                 </div>
                 <div class="row middle-xs">
+                    <img class="selo-video-middle" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/selo-video.png" alt="">
                     <img class="middle-banner-selo-video" src="_assets/_img/selo-video.png" alt="">
                     <div class="col-xs-12 col-xs-12-substituicao col-lg-5 team">
                         <a class="team-invite">
