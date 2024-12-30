@@ -10,6 +10,12 @@
   margin-bottom: -24px !important;
 }
 
+.gray-details-project {
+  width: 200px;
+  height: 90px;
+  position: absolute;
+}
+
 #bloco-02-areas .team-invite .avatar {
   width: 60px;
   height: 60px;
