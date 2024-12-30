@@ -447,8 +447,8 @@ get_header(); // Inclui o cabeçalho do tema
             </div>
         </section> -->
     
+        <img class="gray-details-project" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/gray-details.png" alt="">
         <section class="section-defaults container-fluid" id="bloco-04-projetos">
-            <img class="gray-details-project" src="_assets/_img/_details/gray-details.png" alt="">
             <div class="container container-banner-initial">
                 <div class="row">
                     <div class=" col-lg-6 center-xs start-lg">

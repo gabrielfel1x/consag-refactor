@@ -6,6 +6,66 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 0.7rem;
+  border-bottom: 1px solid #3074f6;
+  width: fit-content;
+  padding-left: 0;
+  padding-right: 0;
+  transition: all 0.3s ease;
+}
+
+#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .info-location {
+  font-size: 0.7rem;
+  color: #b0bec5;
+  text-transform: capitalize;
+}
+
+#bloco-04-projetos #slider-projetos .slide .slide-content .info-container:hover {
+  /* background-color: #182b47; */
+  background: linear-gradient(to right, #293445, #162c47);
+  transition: all 0.3s;
+}
+
+#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .info-image {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#bloco-04-projetos #slider-projetos .slide .slide-content .info-container {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to right, #293445, #0d1d30);
+  box-sizing: border-box;
+  width: 350px;
+  padding: 35px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: -180px;
+  margin-right: -10%;
+  transition: all 0.3s;
+}
+
+
+#bloco-04-projetos {
+  background-color: #ebf2ff;
+  position: relative;
+  padding-top: 80px;
+}
+
 .team-button {
   margin-bottom: -24px !important;
 }
@@ -14,6 +74,10 @@
   width: 200px;
   height: 90px;
   position: absolute;
+  z-index: 999;
+  top: 3300px;
+  left: 100px;
+  filter: brightness(2);
 }
 
 #bloco-02-areas .team-invite .avatar {
@@ -5027,10 +5091,7 @@ body {
   line-height: 0;
 }
 
-#bloco-04-projetos {
-  background-color: #ebf2ff;
-  position: relative;
-}
+
 
 #bloco-04-projetos.mid-bg {
   background: rgb(6, 23, 43);
@@ -5117,33 +5178,7 @@ body {
   margin: 0;
 }
 
-#bloco-04-projetos #slider-projetos .slide .slide-content .info-container {
-  position: relative;
-  display: inline-block;
-  background-color: #0d1a2e;
-  box-sizing: border-box;
-  width: 420px;
-  padding: 40px;
-  /* max-width: 350px; */
-  border-radius: 2px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  margin-top: -180px;
-  margin-right: -10%;
-  transition: all 0.3s;
-}
 
-#bloco-04-projetos #slider-projetos .slide .slide-content .info-container:hover {
-  background-color: #182b47;
-  transition: all 0.3s;
-}
-
-#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .info-image {
-  width: 100%;
-  height: 160px;
-  background-size: cover;
-  background-position: center;
-}
 
 #bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos {
   color: #fff;
@@ -5171,31 +5206,8 @@ body {
   line-height: 1.4;
 }
 
-#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .info-location {
-  font-size: 0.7rem;
-  margin-bottom: 20px;
-  color: #b0bec5;
-  text-transform: capitalize;
-}
 
-#bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .button-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-size: 0.7rem;
-  border-bottom: 1px solid #3074f6;
-  width: fit-content;
-  margin-top: 10px;
-  padding-left: 0;
-  padding-right: 0;
-  transition: all 0.3s ease;
-}
+
 
 #bloco-04-projetos #slider-projetos .slide .slide-content .info-container .box-infos .button-link:hover {
   padding-left: 5px;
