@@ -446,19 +446,21 @@ get_header(); // Inclui o cabeçalho do tema
                 </div>
             </div>
         </section> -->
-    
+     
+        <img class="gray-details-project" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/gray-details.png" alt="">
         <section class="section-defaults container-fluid" id="bloco-04-projetos">
+        <div class="detail-cross-2" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/cross.png)"></div>
             <div class="container container-banner-initial">
-                <div class="row">
+                <div class="row row-title-projects">
                     <div class=" col-lg-6 center-xs start-lg">
                         <h1 style="width: 700px;">Projetos <span>Realizados</span></h1>
                         <div class="mini-desc" style="display: flex;">
                             <div class="row mini-desc-div">
                                 <div class=" col-lg-4 center-xs start-lg" >
-                                    <h4 style="width: 200px;">Nosso Portfólio</h4>
+                                    <h4 style="width: 200px; font-size: 12px; margin-left: 10px;" style="margin-top: -12px; margin-right: 20%;">Nosso Portfólio</h4>
                                 </div>
                                 <div class=" col-lg-8 center-xs start-lg">
-                                    <p style="width: 450px;">
+                                    <p style="width: 320px; font-size: 12px;">
                                         Realizamos mais de 1.000 projetos com excelência e qualidade em diversos segmentos. Nosso compromisso é conectar e transformar sociedades.
                                     </p>
                                 </div>
@@ -468,7 +470,7 @@ get_header(); // Inclui o cabeçalho do tema
                 </div>
     
                 <div class="row">
-                    <div class="col-xs-12 col-xs-12-substituicao">
+                    <div class="col-xs-12 col-xs-12-substituicao-v3">
                         <div id="slider-projetos">
     
                             <div class="slide">
@@ -541,10 +543,12 @@ get_header(); // Inclui o cabeçalho do tema
     
         </section>
         <section class="section-defaults container-fluid" id="bloco-05-noticias">
+        <img class="detail-03-img-v2" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/t-03.png" alt="">
+        <img class="blue-rectangle" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/rectangle.png" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-xs-12-substituicao center-xs start-lg">
-                        <h1>Notícias</h1>
+                        <h1 style="font-size: 46px;">Notícias</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -555,7 +559,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -564,7 +568,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -573,7 +577,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -582,7 +586,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -592,12 +596,6 @@ get_header(); // Inclui o cabeçalho do tema
                             <button id="slider-noticias-next" class="slider-button">→</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="details">
-    
-                <div class="detail" id="detail-01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/t-03.png" alt="">
                 </div>
             </div>
         </section>
