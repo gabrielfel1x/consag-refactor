@@ -548,7 +548,7 @@ get_header(); // Inclui o cabeçalho do tema
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-xs-12-substituicao center-xs start-lg">
-                        <h1>Notícias</h1>
+                        <h1 style="font-size: 46px;">Notícias</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -559,7 +559,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -568,7 +568,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -577,7 +577,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
@@ -586,7 +586,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h2>Totam sint fugiat odio</h2>
                                     <p>Consag Engenharia e Mitsubishi Power Americas assinam contrato EPC para a UTE Portocem, uma usina termelétrica de 1,6 GW no Brasil, prevista para 2026.</p>
                                     <a href="https://consagsa-staging.azurewebsites.net/totam-sint-fugiat-odio/" class="button-link">
-                                        Ver Matéria <span class="arrow">→</span>
+                                        Ver Matéria <span class="arrow-notices">→</span>
                                     </a>
                                 </div>
                             </div>
