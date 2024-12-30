@@ -254,7 +254,7 @@ get_header(); // Inclui o cabeçalho do tema
                     <div class="col-xs-12 col-xs-12-substituicao col-lg-4 men-image">
                         <div class="ilustracao shadow-270 detail-cross" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-01.png); height: 490px; width: 360px;"></div>
                     </div>
-                    <div class="col-xs-12 col-xs-12-substituicao-v2 col-lg-5 col-lg-offset-1 start-lg center-xs text-middle">
+                    <div class="col-xs-12 col-xs-12-substituicao-v3 col-lg-5 col-lg-offset-1 start-lg center-xs text-middle">
                         <h4>a consag engenharia</h4>
                         <h2>Com <span>tradição</span> e <span>excelência</span>, a <span>Consag</span> transforma o Brasil e o mundo com <span>soluções inovadoras</span> em engenharia de grande porte.</h2>
                         <a href="<?= get_permalink(16); ?>" class="button button-inverted button-saiba-mais">saiba mais →</a>
