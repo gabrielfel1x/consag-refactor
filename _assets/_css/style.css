@@ -6,6 +6,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.row-title-projects {
+  margin-bottom: -130px;
+}
+
+#bloco-04-projetos #slider-projetos .slide {
+  padding-top: 180px;
+  padding-right: 40px;
+}
+
 #bloco-04-projetos #slider-projetos .slide .slide-content {
   min-height: 550px;
   background-position: center center;
@@ -61,8 +70,7 @@
 
 
 #bloco-04-projetos #slider-projetos .slide .slide-content .info-container {
-  /* position: relative; */
-  position: absolute;
+  position: relative;
   display: inline-block;
   background: linear-gradient(to right, #293445, #0d1d30);
   box-sizing: border-box;
@@ -5171,9 +5179,6 @@ body {
   overflow: hidden;
 }
 
-#bloco-04-projetos #slider-projetos .slide {
-  padding-top: 180px;
-}
 
 
 

@@ -450,7 +450,7 @@ get_header(); // Inclui o cabeçalho do tema
         <img class="gray-details-project" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/gray-details.png" alt="">
         <section class="section-defaults container-fluid" id="bloco-04-projetos">
             <div class="container container-banner-initial">
-                <div class="row">
+                <div class="row row-title-projects">
                     <div class=" col-lg-6 center-xs start-lg">
                         <h1 style="width: 700px;">Projetos <span>Realizados</span></h1>
                         <div class="mini-desc" style="display: flex;">
@@ -459,7 +459,7 @@ get_header(); // Inclui o cabeçalho do tema
                                     <h4 style="width: 200px;">Nosso Portfólio</h4>
                                 </div>
                                 <div class=" col-lg-8 center-xs start-lg">
-                                    <p style="width: 450px;">
+                                    <p style="width: 320px; font-size: 12px;">
                                         Realizamos mais de 1.000 projetos com excelência e qualidade em diversos segmentos. Nosso compromisso é conectar e transformar sociedades.
                                     </p>
                                 </div>
