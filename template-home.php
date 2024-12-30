@@ -29,6 +29,7 @@ get_header(); // Inclui o cabeçalho do tema
                         <div class="container-fluid">
                             <div class="container">
                                 <div class="row row-80 middle-xs">
+
                                     <div class="col-xs-12 col-xs-12-substituicao-v2 col-lg-8 box-retangle-father col-xs-12 ">
                                         <div class="box-retangle box-retangle-text">
                                             <h1>O <span>futuro</span> se constrói agora</h1>
@@ -261,7 +262,6 @@ get_header(); // Inclui o cabeçalho do tema
                 </div>
                 <div class="row middle-xs">
                     <img class="selo-video-middle" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/selo-video.png" alt="">
-                    <img class="middle-banner-selo-video" src="_assets/_img/selo-video.png" alt="">
                     <div class="col-xs-12 col-xs-12-substituicao col-lg-5 team">
                         <a class="team-invite">
                             <div class="team-avatars">
@@ -302,7 +302,7 @@ get_header(); // Inclui o cabeçalho do tema
                     </div>
                     <div class=" col-lg-6 col-lg-offset-1 div-banner-engenheiros">
                         <!-- <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/_engenharia/mod3-sobre-2.jpg); min-height: 400px; min-width: 680px;"></div> -->
-                        <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-02.png); min-height: 400px; min-width: 680px;"></div>
+                        <div class="ilustracao shadow-270" style="background-image: url(<?php echo get_template_directory_uri(); ?>/_assets/_img/ilustracao-02.png); height: 340px;width: 600px"></div>
                     </div>
                 </div>
             </div>
