@@ -99,7 +99,7 @@
   width: 200px;
   height: 90px;
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   top: 3300px;
   left: 100px;
   filter: brightness(2);

@@ -456,7 +456,7 @@ get_header(); // Inclui o cabeçalho do tema
                         <div class="mini-desc" style="display: flex;">
                             <div class="row mini-desc-div">
                                 <div class=" col-lg-4 center-xs start-lg" >
-                                    <h4 style="width: 200px;">Nosso Portfólio</h4>
+                                    <h4 style="width: 200px; font-size: 12px; margin-left: 10px;" style="margin-top: -12px; margin-right: 20%;">Nosso Portfólio</h4>
                                 </div>
                                 <div class=" col-lg-8 center-xs start-lg">
                                     <p style="width: 320px; font-size: 12px;">
