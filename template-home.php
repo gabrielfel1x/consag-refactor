@@ -543,6 +543,7 @@ get_header(); // Inclui o cabeçalho do tema
     
         </section>
         <section class="section-defaults container-fluid" id="bloco-05-noticias">
+        <img class="detail-03-img-v2" src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/t-03.png" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-xs-12-substituicao center-xs start-lg">
@@ -594,12 +595,6 @@ get_header(); // Inclui o cabeçalho do tema
                             <button id="slider-noticias-next" class="slider-button">→</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="details">
-    
-                <div class="detail" id="detail-01">
-                    <img src="<?php echo get_template_directory_uri(); ?>/_assets/_img/_details/t-03.png" alt="">
                 </div>
             </div>
         </section>
