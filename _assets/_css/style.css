@@ -6,6 +6,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.blue-rectangle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
 .detail-03-img-v2 {
   position: absolute;
   width: 335px;
